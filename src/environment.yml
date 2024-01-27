@@ -1,0 +1,8 @@
+name: image_labeler_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8 # Specify your Python version here
+  - pip
+  - pip:
+      - Pillow==8.4.0 # Specify the version of Pillow you are using
